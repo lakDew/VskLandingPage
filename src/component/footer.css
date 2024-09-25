@@ -1,0 +1,81 @@
+.footer-above-wrapper{
+    background-color: #1E40AF;
+    padding: 9vw 8vw 4vw 8vw;
+    display: flex;
+    gap: 0.7vw;
+    justify-content: center;
+    color: #FCFEFF;
+    font-size: 1vw;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+}
+
+.footer-logo{
+    position: absolute;
+    width: 3vw;
+    aspect-ratio: 1;
+    top :5vw;
+    left: 14vw;
+}
+
+.footer-logo img {
+    height: 100%;
+    width: 100%;
+}
+.sec-wrapper{
+width: 14%;
+text-align: left;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 12vw;
+}
+
+.sec-wrapper-left{
+    width: 18%;
+    margin-right: 6.3vw;
+    line-height: 140%;
+}
+.footer-head{
+    font-weight: 600;
+    margin-bottom: 1vw;
+}
+
+.footer-below-wrapper{
+    background-color:#000080 ;
+    font-size: 1vw;
+    font-weight: 500;
+    color: #EFF6FF;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3vw 4vw;
+}
+
+.sec-wrapper a{
+    color: #ffffff;
+    font-size: 1vw;
+}
+.sec-wo-ul a{
+    text-decoration: none;
+}
+
+.social-icon-wrapper{
+    border: 0.8px solid #ffffff;
+    padding: 0.5vw;
+    border-radius: 50%;
+    width: 1.2vw;
+    height: 1.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8vw;
+
+}
+.social-wrapper{
+    display: flex;
+    gap: 0.8vw;
+    flex-wrap: wrap;
+    
+
+
+}

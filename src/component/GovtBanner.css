@@ -1,0 +1,54 @@
+.govt-banner-wrapper{
+    background-color: #BAE6FD;
+    padding: 2.8vw 0vw;
+    
+    
+}
+.govt-banner-head{
+    color: #1C2B78;
+    font-size: 2.5vw;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+   
+   
+}
+.govt-banner-head span{
+    position: relative;
+}
+
+.govt-banner-head span:before{
+    position: absolute;
+    content: "";
+    left: 0px;
+    right: 0px;
+    bottom: -0.2vw;
+    border: 0.12vw solid  #1C2B78;
+  }
+  .govt-banner-img-wrapper{
+    
+    background-color: #ffffff;
+    display: flex;
+    gap: 0.2vw;
+    justify-content: center;
+   align-items: stretch;
+   height: 11vw;
+   padding: 3vw 1.5vw;
+   margin-top: 3vw;
+   
+
+}
+  
+.edu-img,.samagra-img{
+    width: 25%;
+    
+
+}
+.nic-img,.ind-img,.gov-img{
+    width: 18%;
+   
+}
+
+.edu-img img,.samagra-img img,.nic-img img,.ind-img img,.gov-img img{
+    height: 100%;
+    width: 100%;
+}

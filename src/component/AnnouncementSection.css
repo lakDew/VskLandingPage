@@ -1,0 +1,149 @@
+
+
+.an-sp-wrapper{
+    background-image: linear-gradient(to right,#8BBCF9,#BFDBFE);
+    padding: 2vw 3vw;
+  }
+  
+  
+  .an-sp-head-one{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 1.23vw;
+      color: #172554;
+  }
+  .an-sp-head-two{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 2.5vw;
+      color: #172554;
+      font-size: 2.45vw;
+      
+  }
+  
+  .an-sp-head-two span{
+      position: relative;
+  }
+  
+  .an-sp-head-two span:before{
+      position: absolute;
+      content: "";
+      left: 0px;
+      right: 0px;
+      bottom: -0.2vw;
+      border: 0.12vw solid  #172554;;
+  }
+  
+  .an-sp-card-wrapper{
+    display: flex;
+    margin-top: 2vw;
+    gap: 2vw;
+    justify-content: center;
+  }
+  
+  .an-sp-card-left{
+    width: 30%;
+    background-color: #FFFFFF;
+  }
+  .an-sp-card-middle{
+    width: 30%;
+    background-color:#FFFFFF
+  }
+  .an-sp-card-right{
+  
+    width: 19%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+    
+  }
+  
+  .an-sp-card-left-head{
+    color: #FFFFFF;
+    background-color: #243CBD;
+    font-size: 1.03vw;
+    font-weight: 700;
+    padding: 0.6vw;
+    
+  }
+  
+  .an-sp-card-middle-head{
+    color: #FFFFFF;
+    background-color: #EDBF08;
+    font-size:  1.03vw;
+    font-weight: 700;
+    padding: 0.6vw;
+  }
+  
+  .an-sp-card-content{
+    text-align: left;
+    color: #666666;
+    font-size: 1vw;
+    font-weight: 450;
+  }
+  
+  .an-sp-card-right-first{
+    background-color:#FFFFFF;
+    margin-bottom: 1vw;
+    
+    
+  }
+  
+  .an-sp-card-right-second{
+    background-color:#FFFFFF;
+    margin-bottom: 1vw;
+  }
+  .an-sp-card-right-third{
+    background-color:#FFFFFF;
+    
+  }
+  
+  
+  .an-sp-card-right-first-head{
+    background-color:#008BF9;
+    font-size:  1.03vw;
+    font-weight: 700;
+    padding: 0.6vw;
+    color: #FFFFFF;
+  }
+  .an-sp-card-right-second-head{
+    background-color:#835EEC;
+    font-size:  1.03vw;
+    font-weight: 700;
+    padding: 0.6vw;
+    color: #FFFFFF;
+  }
+  .an-sp-card-right-third-head{
+    background-color:#FC784F;
+    font-size:  1.03vw;
+    font-weight: 700;
+    padding: 0.6vw;
+    color: #FFFFFF;
+  }
+  .an-sp-card-content li{
+   margin: 0.9vw 0vw;
+  }
+  /* li::marker{
+    font-size: 6px !important;
+    vertical-align: middle;
+  }  */
+  
+  .an-sp-card-left-img-wrapper{
+    width: 97%;
+    height: 15vw;
+    margin: 0.3vw auto;
+   
+  }
+  
+  
+   .an-sp-card-left-img{
+    width: 100%;
+    height: 15vw;
+   
+   }
+  .an-sp-card-left-img img{
+    width: 100%;
+    height: 100%;
+    
+  }
+  

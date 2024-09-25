@@ -1,0 +1,54 @@
+.about-wrapper{
+    background-image: linear-gradient(to bottom,#FFFFFF,#CCFBF1);
+    padding: 3vw 4vw;
+    
+}
+.about-head{
+    color: #075985;
+    font-size: 2.5vw;
+    font-weight: 700;
+   
+}
+.about-head span{
+    position: relative;
+}
+
+.about-head span:before{
+    position: absolute;
+    content: "";
+    left: 0px;
+    right: 0px;
+    bottom: -0.2vw;
+    border: 0.12vw solid  #075985;
+  }
+
+  
+
+  .about-content-wrapper{
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    margin-top: 7vw;
+  }
+
+  .about-content{
+  
+   width: 40%;
+   text-align: left;
+   color: #075985;
+   font-size: 1vw;
+   font-weight: 500;
+   padding-right: 2vw;
+  
+  }
+  .about-video{
+    
+    width: 40%;
+    
+    height: 72%;
+    border-radius: 2px;
+    border: 2px solid #ffffff;
+    
+  }
