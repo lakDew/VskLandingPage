@@ -18,7 +18,7 @@ export default function NaveBar({logo,menuItem,heroTitle,heroSubTitle}){
         <div className="nav-bar-right">
             {
                 menuItem.map((item,index)=>
-                <NavLink className="nav-bar-link" to={item=="HOME"?"/":`/${item.toLowerCase()}`} style={({isActive})=>isActive?{backgroundColor:"#1E40AF",padding:"7px 18px",color:"#ffffff",borderRadius:"5px"}:{}}>{item}</NavLink>
+                <NavLink className="nav-bar-link" to={item=="HOME"?"/":`/${item.toLowerCase()}`} style={({isActive})=>isActive?{backgroundColor:"#1E40AF",padding:"7px 18px",color:"#ffffff",borderRadius:"4px"}:{}}>{item}</NavLink>
                 )
             }
         </div>

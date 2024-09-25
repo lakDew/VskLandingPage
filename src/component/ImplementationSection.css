@@ -15,7 +15,6 @@
   }
   .imp-cab-head-two{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 36px;
     color: #FFFFFF;
     font-size: 2.45vw;
     font-weight: 700;
@@ -92,4 +91,60 @@
     font-size: 0.9vw;
     
     
+  }
+
+  @media screen and (min-width: 1500px) {
+
+    
+    .imp-cab-wrapper{
+        background-image: linear-gradient(to bottom,#06B6D4,#344FDE);
+        padding: 30px 60px;
+      }
+
+      .imp-cab-head-one{
+       
+        font-size: 20px;
+     
+      }
+     
+      .imp-cab-head-two{
+       
+        font-size: 36px;
+       
+        
+      }
+
+      .imp-cab-head-two span:before{
+        bottom: -3px;
+        border: 3px solid  #FFFFFF;;
+      }
+
+      .imp-cab-card-wrapper{
+     
+        gap: 20px;
+        margin: 40px;
+    
+      }
+
+      .imp-cab-card{
+        width: 270px;        
+      }
+
+      .imp-cab-card-content-wrapper{
+        background-color: #FFFFFF;
+        padding: 15px;
+        
+      }
+      
+     
+
+      .imp-cab-card-head{
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+      .imp-cab-card-content{
+        color: #666666;
+        font-size: 14px;   
+      }
   }

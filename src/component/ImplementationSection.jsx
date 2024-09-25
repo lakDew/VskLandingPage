@@ -15,12 +15,25 @@ const  chunkArray=(arr, chunkSize)=> {
 export default function ImplementationSection({data}){
  
   
+    const [width,setWidth]=useState(window.innerWidth);
+
     const [dataItem,setdataItem]=useState([]);
     useEffect(()=>{
-        setdataItem(chunkArray(data.content,4))
+        window.addEventListener('resize', function() {
+            setWidth(window.innerWidth)
+          });
+          if(width<1500) setdataItem(chunkArray(data.content,4))
+          else{
+            setdataItem(chunkArray(data.content,(width-150)/290))
+        } 
+        
     },[])
 
 
+    useEffect(()=>{
+        setdataItem(chunkArray(data.content,(width-150)/290))
+    },[width])
+   
    
     return(
         <div className="imp-cab-wrapper">
@@ -41,7 +54,9 @@ export default function ImplementationSection({data}){
                           
                     }
                 }}
+               
 
+                
                 
                 activeIndicatorIconButtonProps={{
                     style: {
@@ -52,7 +67,7 @@ export default function ImplementationSection({data}){
             
                 indicatorContainerProps={{
                     style: {
-                        marginTop: '6vw', 
+                        marginTop: width<1500?'6vw':"50px" 
                     
                        
                     }
