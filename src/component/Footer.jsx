@@ -13,43 +13,45 @@ export default function Footer({ data }) {
   return (
     <>
       <div className="footer-above-wrapper">
-        <div className="footer-logo">
-          <img src={data.logo} />
-        </div>
+        
 
         <div className="sec-wrapper sec-wrapper-left">
-          <div>{data.desc}</div>
+          <div className="footer-desc">
+            <div>{data.desc}</div>
+          <div className="footer-logo">
+          <img src={data.logo} />
+        </div></div>
           <div className="social-wrapper">
             <div className="social-icon-wrapper">
-              {" "}
+              
               <Link to="">
                 <FaLinkedinIn />
-              </Link>{" "}
+              </Link>
             </div>
             <div className="social-icon-wrapper">
-              {" "}
+              
               <Link to="">
-                {" "}
+               
                 <FaFacebook />
-              </Link>{" "}
+              </Link>
             </div>
             <div className="social-icon-wrapper">
-              {" "}
+              
               <Link to="">
                 <FaInstagram />
-              </Link>{" "}
+              </Link>
             </div>
             <div className="social-icon-wrapper">
-              {" "}
+              
               <Link to="">
                 <FaTwitter />
-              </Link>{" "}
+              </Link>
             </div>
             <div className="social-icon-wrapper">
-              {" "}
+              
               <Link to="">
                 <FaYoutube />
-              </Link>{" "}
+              </Link>
             </div>
           </div>
         </div>

@@ -31,7 +31,7 @@ export default function ImplementationSection({data}){
 
 
     useEffect(()=>{
-        setdataItem(chunkArray(data.content,(width-150)/290))
+        if(width>1500) setdataItem(chunkArray(data.content,(width-150)/290))
     },[width])
    
    
@@ -54,10 +54,6 @@ export default function ImplementationSection({data}){
                           
                     }
                 }}
-               
-
-                
-                
                 activeIndicatorIconButtonProps={{
                     style: {
                         color: '#FFFFFF' ,

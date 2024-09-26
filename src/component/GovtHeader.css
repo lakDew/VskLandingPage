@@ -72,3 +72,74 @@
 .text-size{
     padding: 0vw 0.5vw ;
 }
+
+@media screen and (min-width: 1500px) {
+
+    .header-wrapper{
+       
+        font-size: 14px;
+        padding: 10px 30px ;
+        
+    }
+
+
+    .header-info-left{
+        width: 26%;
+      
+        gap: 8px
+    }
+    .header-division{
+        margin: 0px 2px;
+    }
+    .header-info-right{
+      
+        width: 32%;
+      
+        
+    }
+
+
+    
+.color-wrapper{
+   
+    gap: 8px;
+}
+.header-white{
+    height: 14px;
+    width: 14px;
+    
+}
+.header-yellow{
+    height: 14px;
+    width: 14px;
+    
+}
+.header-pink{
+    height: 14px;
+    width: 14px;
+   
+}
+.header-blue{
+    height: 14px;
+    width: 14px;
+   
+}
+.header-info-right span{
+ margin: 6vw 0vw;
+}
+
+.header-right-division{
+    margin: 14px;
+    height: 100%;
+    width: 0px;
+    border-right:  solid #ffffff;
+}
+.text-size-wrapper{
+
+    gap:8px
+}
+.text-size{
+    padding: 0vw 7px ;
+}
+
+}
