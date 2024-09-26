@@ -22,16 +22,17 @@ export default function ImplementationSection({data}){
         window.addEventListener('resize', function() {
             setWidth(window.innerWidth)
           });
-          if(width<1500) setdataItem(chunkArray(data.content,4))
+          if(width<1600) setdataItem(chunkArray(data.content,4))
           else{
-            setdataItem(chunkArray(data.content,(width-150)/290))
+            setdataItem(chunkArray(data.content,(window.innerWidth-160)/290))
         } 
         
     },[])
 
 
     useEffect(()=>{
-        if(width>1500) setdataItem(chunkArray(data.content,(width-150)/290))
+        if(width>1600) setdataItem(chunkArray(data.content,(width-150)/290))
+            else setdataItem(chunkArray(data.content,4))
     },[width])
    
    
