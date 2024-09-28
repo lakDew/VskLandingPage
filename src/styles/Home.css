@@ -22,7 +22,8 @@
   .card {
   
     width: 19%;
-    aspect-ratio: 1;
+    aspect-ratio: 1.2;
+    height: auto;
     padding: 1.2vw;
     display: flex;
     flex-direction: column;

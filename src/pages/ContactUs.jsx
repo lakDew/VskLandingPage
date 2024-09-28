@@ -9,6 +9,7 @@ import * as Yup from 'yup'
 import NaveBar from "../component/NaveBar";
 import GovtBanner from "../component/GovtBanner";
 import GovtHeader from "../component/GovtHeader";
+import Location from "../component/Location";
 
 export default function  ContactUs(){
 
@@ -167,6 +168,8 @@ export default function  ContactUs(){
            
             
         </div>
+
+        <Location/>
         <Footer/>
         </>
     )
