@@ -23,7 +23,6 @@ export default function AnnouncementSection({data}){
                     style: {
                         
                         top: 'unset',
-                        
                         opacity:"0.5",
                         bottom:'0'
                     }

@@ -22,7 +22,9 @@ export default function ImplementationSection({data}){
         window.addEventListener('resize', function() {
             setWidth(window.innerWidth)
           });
-          if(width<1600) setdataItem(chunkArray(data.content,4))
+          if(width<540) setdataItem(chunkArray(data.content,2))
+         else if(width<768) setdataItem(chunkArray(data.content,3))
+          else if(width<1600) setdataItem(chunkArray(data.content,4))
           else{
             setdataItem(chunkArray(data.content,(window.innerWidth-160)/290))
         } 
@@ -31,7 +33,9 @@ export default function ImplementationSection({data}){
 
 
     useEffect(()=>{
-        if(width>1600) setdataItem(chunkArray(data.content,(width-150)/290))
+        if(width<540) setdataItem(chunkArray(data.content,2))
+            else if(width<768) setdataItem(chunkArray(data.content,3))
+          else  if(width>1600) setdataItem(chunkArray(data.content,(width-150)/290))
             else setdataItem(chunkArray(data.content,4))
     },[width])
    
@@ -86,7 +90,8 @@ export default function ImplementationSection({data}){
                                 <div className="imp-cab-card-content-wrapper">
                    
                                 <div className="imp-cab-card-head">{a.head}</div>
-                                <ReadMore content={a.content}/>
+                                {/* <ReadMore content={a.content}/> */}
+                                <div className="imp-cab-read-content">{a.content}</div>
                    
                                 </div>
                                 </div>

@@ -59,7 +59,7 @@ export default function Home() {
       <ImplementationSection data={implementationSectionData}/>
       <About data={aboutData}/>
       <GovtBanner data={govtBannerData}/>
-      <Footer data={footerData}/>
+      <Footer/>
     </div>
   );
 }

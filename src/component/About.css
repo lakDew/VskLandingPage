@@ -99,3 +99,38 @@
    }
  
   }
+   
+  @media screen and (max-width: 768px){
+    .about-content-wrapper{
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 3vw;
+      margin-top: 4vw;
+      margin-bottom: 20px;
+    }
+
+    .about-content{
+  
+      width: 60%;
+      text-align: left;
+      color: #075985;
+      font-size: 7px;
+      font-weight: 500;
+      padding-right: 0;
+      padding: 10px 0px;
+     
+     }
+
+     .about-video{
+     
+      width: 60%;
+       height: 72%;
+       border-radius: 2px;
+       border: 2px solid #ffffff;
+       
+     }
+  }
+  @media screen and (max-width: 540px){}

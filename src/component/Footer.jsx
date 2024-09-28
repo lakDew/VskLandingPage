@@ -9,7 +9,10 @@ import {
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
-export default function Footer({ data }) {
+import { siteContent } from "../constants/content";
+export default function Footer() {
+
+  const data=siteContent.footer;
   return (
     <>
       <div className="footer-above-wrapper">
@@ -20,8 +23,9 @@ export default function Footer({ data }) {
             <div>{data.desc}</div>
           <div className="footer-logo">
           <img src={data.logo} />
-        </div></div>
-          <div className="social-wrapper">
+        </div>
+        </div>
+          {/* <div className="social-wrapper">
             <div className="social-icon-wrapper">
               
               <Link to="">
@@ -53,7 +57,7 @@ export default function Footer({ data }) {
                 <FaYoutube />
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {data.content.map((item) => (

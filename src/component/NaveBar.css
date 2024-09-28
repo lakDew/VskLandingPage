@@ -1,12 +1,12 @@
 .nav-bar{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     position: sticky;
     top:0px;
     background-color: #ffffff;
     z-index: 111;
-    padding: 0.7vw 1.4vw;
+    padding: 0.7vw 2.8vw;
 }
 /* .nav-bar-top{
     display: flex;
@@ -168,4 +168,10 @@ border:0.13vw solid  #1E40AF;
             
             
          }
+  }
+
+  @media screen and (max-width: 768px) {
+
+   
+
   }
